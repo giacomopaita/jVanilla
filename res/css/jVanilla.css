@@ -1,0 +1,17 @@
+/* jVanilla Styles
+-----------------------------------------------------------------------------------------------*/
+ul ul {display: none;background: #4b545f;}
+ul li:hover > ul {display: block;}
+ul {background: #086FA1; border-radius: 2px;  list-style: none;position: relative;}
+ul:after {content: ""; clear: both; display: block;}
+ul li {float: left}
+ul li:hover {background: #4b545f}
+ul li:hover a {color: #fff}
+ul li a {display: block; padding: 8px 5px;color: #FFF; text-decoration: none}
+ul ul {background: #5f6975; border-radius: 0px; padding: 0;position: absolute; top: 100%}
+ul ul li {float: none; border-top: 1px solid #6b727c;position: relative}
+ul ul li a {color: #fff;}
+ul ul li a:hover {background: #4b545f;}
+ul ul ul {position: absolute; left: 100%; top:0;}
+
+.js-enabled ul li:hover > ul {display: none;}

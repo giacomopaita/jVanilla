@@ -1,0 +1,16 @@
+/* COMMON RESET */
+article, aside, footer, header,  h1, h2, h3, h4, h5, h6, ul, li, form, p, textarea, input, html, body, input, th, select, table { margin:0; padding:0; border:0; text-align:left; line-height:normal }
+li { list-style:none; }
+img{border:0;}
+a {outline:none;cursor:pointer}
+
+/*FONT*/
+body {color:#3E4543; font: 12px Arial,Helvetica,sans-serif; background:url(bg/mooning.png) 0 0; }
+h1, h2, h3 { color:#444444}
+h2 {font-size:16px}
+h3 {font-size:21px}
+a {color:#999999;}
+a:hover {color:#666666}
+a:active {outline:none;}
+
+nav {text-align: center;}
